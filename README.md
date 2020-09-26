@@ -7,9 +7,9 @@ It makes comparison of:
 3. GPT-2
 
 ### Table of contents
-- LSTM
-- BERT finetune
-- GPT-2  
+- LSTM: 3 layer Network, fast to train and sets the baseline performance
+- BERT: Finetune the BERT network(some library installations needed)
+- GPT-2: Use the powerfull GPT-2(also need's some libraries)
 
 **Note:** Some preprocessing is needed and it is performed in the LSTM script(so I you replicate the experiment run it first)  
 The other 2 scripts assume that the input is the preprocessed file. Also because the original dataset contains 1.6 million tweets  
